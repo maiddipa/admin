@@ -1,0 +1,100 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201229215020_Initial_Migration.cs" />
+    <Compile Remove="Migrations\20201229215020_Initial_Migration.Designer.cs" />
+    <Compile Remove="Migrations\20201229215727_Initial_Migration.cs" />
+    <Compile Remove="Migrations\20201229215727_Initial_Migration.Designer.cs" />
+    <Compile Remove="Migrations\20210102210137_Seed_Data.cs" />
+    <Compile Remove="Migrations\20210102210137_Seed_Data.Designer.cs" />
+    <Compile Remove="Migrations\20210105125648_user_role_relation.cs" />
+    <Compile Remove="Migrations\20210105125648_user_role_relation.Designer.cs" />
+    <Compile Remove="Migrations\20210105130550_user_role_relation.cs" />
+    <Compile Remove="Migrations\20210105130550_user_role_relation.Designer.cs" />
+    <Compile Remove="Migrations\20210107194331_update_registration_properties.cs" />
+    <Compile Remove="Migrations\20210107194331_update_registration_properties.Designer.cs" />
+    <Compile Remove="Migrations\20210107194644_sql_query_data_for_country_state_city.cs" />
+    <Compile Remove="Migrations\20210107194644_sql_query_data_for_country_state_city.Designer.cs" />
+    <Compile Remove="Migrations\20210107213130_add_tables_country_state_city.cs" />
+    <Compile Remove="Migrations\20210107213130_add_tables_country_state_city.Designer.cs" />
+    <Compile Remove="Migrations\20210107213519_add_tables_country_state_city.cs" />
+    <Compile Remove="Migrations\20210107213519_add_tables_country_state_city.Designer.cs" />
+    <Compile Remove="Migrations\20210107213637_add_tables_country_state_city.cs" />
+    <Compile Remove="Migrations\20210107213637_add_tables_country_state_city.Designer.cs" />
+    <Compile Remove="Migrations\20210107215747_add_data_to_countries_states_cities.cs" />
+    <Compile Remove="Migrations\20210107215747_add_data_to_countries_states_cities.Designer.cs" />
+    <Compile Remove="Migrations\20210107220718_seed_users_data.cs" />
+    <Compile Remove="Migrations\20210107220718_seed_users_data.Designer.cs" />
+    <Compile Remove="Migrations\20210108140820_add_data_country_state_city.cs" />
+    <Compile Remove="Migrations\20210108140820_add_data_country_state_city.Designer.cs" />
+    <Compile Remove="Migrations\20210108161743_add_admin_users.cs" />
+    <Compile Remove="Migrations\20210108161743_add_admin_users.Designer.cs" />
+    <Compile Remove="Migrations\20210123190710_add_new_tables_Page_Navbar_Footer_Language.cs" />
+    <Compile Remove="Migrations\20210123190710_add_new_tables_Page_Navbar_Footer_Language.Designer.cs" />
+    <Compile Remove="Migrations\20210123192010_add_new_tables_Page_Navbar_Footer_Language.cs" />
+    <Compile Remove="Migrations\20210123192010_add_new_tables_Page_Navbar_Footer_Language.Designer.cs" />
+    <Compile Remove="Migrations\20210123204448_add_navbar_data.cs" />
+    <Compile Remove="Migrations\20210123204448_add_navbar_data.Designer.cs" />
+    <Compile Remove="Migrations\20210125155448_add_price_page_data.cs" />
+    <Compile Remove="Migrations\20210125155448_add_price_page_data.Designer.cs" />
+    <Compile Remove="Migrations\20210125212033_add_price_page_data.cs" />
+    <Compile Remove="Migrations\20210125212033_add_price_page_data.Designer.cs" />
+    <Compile Remove="Migrations\20210126140148_add_new_tables_language_navbar_page_and_data.cs" />
+    <Compile Remove="Migrations\20210126140148_add_new_tables_language_navbar_page_and_data.Designer.cs" />
+    <Compile Remove="Migrations\20210126140738_add_page_data_for_home_price_about.cs" />
+    <Compile Remove="Migrations\20210126140738_add_page_data_for_home_price_about.Designer.cs" />
+    <Compile Remove="Migrations\20210128191455_stored_procedure_for_search_city_by_countryId.cs" />
+    <Compile Remove="Migrations\20210128191455_stored_procedure_for_search_city_by_countryId.Designer.cs" />
+    <Compile Remove="Migrations\20210128191859_stored_procedure_for_search_city_by_countryId.cs" />
+    <Compile Remove="Migrations\20210128191859_stored_procedure_for_search_city_by_countryId.Designer.cs" />
+    <Compile Remove="Migrations\20210128192635_stored_procedure_for_search_city_by_countryId.cs" />
+    <Compile Remove="Migrations\20210128192635_stored_procedure_for_search_city_by_countryId.Designer.cs" />
+    <Compile Remove="Migrations\20210128192737_stored_procedure_for_search_city_by_countryId.cs" />
+    <Compile Remove="Migrations\20210128192737_stored_procedure_for_search_city_by_countryId.Designer.cs" />
+    <Compile Remove="Migrations\20210202194320_add_new_column_Paid.cs" />
+    <Compile Remove="Migrations\20210202194320_add_new_column_Paid.Designer.cs" />
+    <Compile Remove="Migrations\20210202195158_add_new_column_Paid.cs" />
+    <Compile Remove="Migrations\20210202195158_add_new_column_Paid.Designer.cs" />
+    <Compile Remove="Migrations\20210323201743_missingContent.cs" />
+    <Compile Remove="Migrations\20210323201743_missingContent.Designer.cs" />
+    <Compile Remove="Migrations\20210323202546_addMissingContentAndTables.cs" />
+    <Compile Remove="Migrations\20210323202546_addMissingContentAndTables.Designer.cs" />
+    <Compile Remove="Migrations\20210323205537_init.cs" />
+    <Compile Remove="Migrations\20210323205537_init.Designer.cs" />
+    <Compile Remove="Migrations\20210323211019_dataSeedAppContent.cs" />
+    <Compile Remove="Migrations\20210323211019_dataSeedAppContent.Designer.cs" />
+    <Compile Remove="Migrations\20210323211107_dataSeedAppContent.cs" />
+    <Compile Remove="Migrations\20210323211107_dataSeedAppContent.Designer.cs" />
+    <Compile Remove="Migrations\20210326200304_citySeedData2.cs" />
+    <Compile Remove="Migrations\20210326200304_citySeedData2.Designer.cs" />
+    <Compile Remove="Migrations\20210326201401_addSecondTableCity.cs" />
+    <Compile Remove="Migrations\20210326201401_addSecondTableCity.Designer.cs" />
+    <Compile Remove="Migrations\20210326201958_addDataForSecondCityTable.cs" />
+    <Compile Remove="Migrations\20210326201958_addDataForSecondCityTable.Designer.cs" />
+    <Compile Remove="Migrations\20210425214603_addCourseIdToCourseContent.cs" />
+    <Compile Remove="Migrations\20210425214603_addCourseIdToCourseContent.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BIMA.Common.Core\BIMA.Common.Core.csproj" />
+  </ItemGroup>
+
+</Project>

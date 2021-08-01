@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Stripe.net" Version="39.33.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BIMA.Common.Core\BIMA.Common.Core.csproj" />
+    <ProjectReference Include="..\BIMA.Common.EmailService\BIMA.Common.EmailService.csproj" />
+    <ProjectReference Include="..\BIMA.Database\BIMA.Database.csproj" />
+    <ProjectReference Include="..\BIMA.Domain.Models\BIMA.Domain.Models.csproj" />
+    <ProjectReference Include="..\BIMA.Domain.Repository\BIMA.Domain.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

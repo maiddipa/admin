@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-WebApi-D16149B5-4DD8-443A-B213-AB53EEC71AAD</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Stripe.net" Version="39.33.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BIMA.Common.Core\BIMA.Common.Core.csproj" />
+    <ProjectReference Include="..\BIMA.Common.EmailService\BIMA.Common.EmailService.csproj" />
+    <ProjectReference Include="..\BIMA.Common.Middleware\BIMA.Common.Middleware.csproj" />
+    <ProjectReference Include="..\BIMA.Database\BIMA.Database.csproj" />
+    <ProjectReference Include="..\BIMA.Domain.Mapper\BIMA.Domain.Mapper.csproj" />
+    <ProjectReference Include="..\BIMA.Domain.Models\BIMA.Domain.Models.csproj" />
+    <ProjectReference Include="..\BIMA.Domain.Repository\BIMA.Domain.Repository.csproj" />
+    <ProjectReference Include="..\BIMA.Domain.Services\BIMA.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>
